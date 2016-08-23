@@ -1,0 +1,28 @@
+/* Pon tu código css aqui */
+button{
+	margin-top: 10px;
+	clear: both;
+}
+.box {
+	float: right;
+	width: 25%;
+	height: 100px;
+}
+.amarillo{
+	background-color: #FFFC0E;
+}
+.azul{
+	background-color: #3F5DF3;
+}
+.rojo{
+	background-color: #F82E84;
+}
+.contenedor{
+	border:1px solid black;
+	width: 720px;
+}
+.contenedor:after{
+	content: "";
+	clear:both;
+	display: block;
+}
